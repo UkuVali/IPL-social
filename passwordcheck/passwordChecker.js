@@ -4,6 +4,11 @@ export function passwordChecker(password) {
         return false;
     }
 
+    const hasIpl = password.toLowerCase().includes("ipl");
+    if (hasIpl) {
+      return false;
+    }
+      
 
 
 
@@ -15,5 +20,6 @@ export function passwordChecker(password) {
 
 
 
+    return true;
 
 }
