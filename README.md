@@ -2,4 +2,6 @@
 
 1. Uku Vali uku.vali@student.vinci.be
 2. https://github.com/UkuVali/IPL-social
-
+3. passwordChecker.js check si le password est valide, le fuction passwordChecker regarde si le password a minimum 8 characters , un chiffre , un charactere special et na pas IPL dans le string.   passwordChecker.test.js test le code si il est bonne
+4.
+5.
