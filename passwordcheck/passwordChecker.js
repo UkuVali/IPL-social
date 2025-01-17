@@ -13,7 +13,7 @@ export function passwordChecker(password) {
     if (!chiffre) {
       return false;
     }
-    // Vérifi si il a pas ipl
+    // Vérifi si il a pas ipl dans le string
     const hasIpl = password.toLowerCase().includes("ipl");
     if (hasIpl) {
       return false;
