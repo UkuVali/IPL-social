@@ -10,7 +10,10 @@ export function passwordChecker(password) {
       return false;
     }
 
-
+    const chiffre = /\d/.test(password);
+    if (!chiffre) {
+      return false;
+    }
     const hasIpl = password.toLowerCase().includes("ipl");
     if (hasIpl) {
       return false;
