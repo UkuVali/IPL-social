@@ -18,18 +18,7 @@ export function passwordChecker(password) {
     if (hasIpl) {
       return false;
     }
-      
-
-
-
-
-
-
-
-
-
-
-
+   
     return true;
 
 }
