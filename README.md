@@ -6,4 +6,4 @@
 4. Pour lancer les tests, utilisez la commande suivante : npm test
 5. Ce projet nécessite Node.js et npm pour être exécuté.
 
- Il exist des preoblems avec les file json, mais le test doivent marche
+ Il exist des problems avec les files json, mais les tests doivent marche
